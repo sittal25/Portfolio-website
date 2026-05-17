@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sittal Karki — About Me</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" onclick="closeMobile()">✕</button>
+    <a href="index.html"      onclick="closeMobile()">Home</a>
+    <a href="aboutme.html"    onclick="closeMobile()">About</a>
+    <a href="skills.html"     onclick="closeMobile()">Skills</a>
+    <a href="experience.html" onclick="closeMobile()">Experience</a>
+    <a href="projects.html"   onclick="closeMobile()">Projects</a>
+    <a href="contact.html"    onclick="closeMobile()">Contact</a>
+  </div>
+
+  <nav>
+    <div class="nav-logo"><span></span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutme.html" class="active">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><button class="theme-btn" id="themeBtn" onclick="toggleTheme()">☀️</button></li>
+    </ul>
+    <button class="hamburger" onclick="openMobile()">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <div class="sec-label">Who I Am</div>
+      <div class="about-grid reveal">
+        <div class="profile-wrap">
+          <div class="profile-img">
+            <!-- To add your photo: <img src="img/profile.jpg" alt="Sittal Karki"> -->
+            👤
+          </div>
+          <div class="profile-badge"><span class="dot">●</span> Kathmandu, Nepal</div>
+        </div>
+        <div class="about-text">
+          <div class="sec-label">About Me</div>
+          <h2 class="sec-title">Security-minded.<br>Detail-oriented.</h2>
+          <p>Hi! I'm <strong>Sittal Karki</strong>, a cybersecurity and IT networking student at Islington College, affiliated with London Metropolitan University. I'm passionate about building secure, resilient digital environments.</p>
+          <p>I have hands-on experience with penetration testing tools, network protocols, and cloud platforms — from lab work with Wireshark and Cisco Packet Tracer to real-world digital risk monitoring at Vairav Technology.</p>
+          <div class="about-info">
+            <div class="info-chip"><div class="ic-label">Email</div><div class="ic-val">sittalkarki05@gmail.com</div></div>
+            <div class="info-chip"><div class="ic-label">GitHub</div><div class="ic-val">sheetal694</div></div>
+            <div class="info-chip"><div class="ic-label">LinkedIn</div><div class="ic-val">SittalKarki</div></div>
+            <div class="info-chip"><div class="ic-label">Location</div><div class="ic-val">Kavresthali, Kathmandu</div></div>
+            <div class="info-chip"><div class="ic-label">Degree</div><div class="ic-val">BSc (Hons) — Ongoing</div></div>
+          </div>
+          <div class="timeline">
+            <h4>Education</h4>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-body">
+                <div class="tl-year">2023 – Present</div>
+                <div class="tl-role">BSc (Hons) Computer Networking &amp; IT Security</div>
+                <div class="tl-place">Islington College · London Metropolitan University</div>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-body">
+                <div class="tl-year">2020 – 2022</div>
+                <div class="tl-role">School Leaving Certificate (SLC)</div>
+                <div class="tl-place">Herald International School · NEB</div>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-body">
+                <div class="tl-year">2007 – 2020</div>
+                <div class="tl-role">Secondary Education Examination (SEE)</div>
+                <div class="tl-place">Manjari Secondary School · NEB</div>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top:2rem;">
+            <a href="contact.html" class="btn btn-primary">Get In Touch →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo"><span></span></div>
+      <p class="footer-tagline">Cybersecurity &amp; IT Security Student — Islington College, Kathmandu</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-socials">
+        <a href="mailto:sittalkarki05@gmail.com">✉️ sittalkarki05@gmail.com</a>
+        <a href="https://github.com/sheetal694" target="_blank">🐱 github.com/sheetal694</a>
+        <a href="https://linkedin.com/in/SittalKarki" target="_blank">💼 LinkedIn</a>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 <em>Sittal Karki</em>. All rights reserved.</span>
+        <span>Built with HTML · CSS · JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
